@@ -1,0 +1,21 @@
+Tag utilizzati nelle recensioni annotate:
+		
+		[t]: the title of the review: Each [t] tag starts a review. 
+       We did not use the title information in our papers.
+  xxxx[+|-n]: xxxx is a product feature. 
+      [+n]: Positive opinion, n is the opinion strength: 3 strongest, 
+            and 1 weakest. Note that the strength is quite subjective. 
+            You may want ignore it, but only considering + and -
+      [-n]: Negative opinion
+  ##  : start of each sentence. Each line is a sentence. 
+  [u] : feature not appeared in the sentence.
+  [p] : feature not appeared in the sentence. Pronoun resolution is needed.
+  [s] : suggestion or recommendation.
+  [cc]: comparison with a competing product from a different brand.
+  [cs]: comparison with a competing product from the same brand.
+  
+  nuovi tag:
+  [f] : fact-based opinion.
+  [h] : opinione basata sulla soddisfazione o insoddisfazione del recensore es. "il prodotto mi piace"
+
+  GENERAL[+|-n] : il target dell'opinione é il prodotto ma c'é un deittico come target o nessun riferimento presente nel testo 
